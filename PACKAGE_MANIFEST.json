@@ -1,0 +1,44 @@
+{
+  "package": "1013R_R220B_R97B_SHELL_LAYER_SLOT_OWNERSHIP_BINDING",
+  "created_at": "2026-07-08",
+  "purpose": "Review package for readonly shell-layer slot ownership binding on the existing R97B working shell.",
+  "main_code_target": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R97B_TEACHER_SHELL_EXPERIENCE_POLISH_AND_STALE_CONTENT_CLEANUP/r97b_clean_shell_context_preview.html",
+  "included_files": [
+    "README_FOR_GPT_REVIEW.md",
+    "GPT_REVIEW_PROMPT_R220B.md",
+    "r220b_shell_slot_ownership_map.json",
+    "r220b_dom_marker_plan.md",
+    "r220b_render_slot_resolver_contract.md",
+    "r220b_r97b_entrypoint_preservation_report.md",
+    "r220b_right_rail_bottom_xiaojiao_slot_report.md",
+    "r220b_static_vs_real_shell_no_regression_report.md",
+    "validate_1013R_R220B_shell_layer_slot_ownership_binding_result.json",
+    "validator/validate_1013R_R220B_shell_layer_slot_ownership_binding.py",
+    "PACKAGE_FILE_INDEX.txt",
+    "SHA256SUMS.txt",
+    "ZIP_SHA256.txt",
+    "source_anchors/r97b_r220b_patch.diff",
+    "source_anchors/r97b_r220b_marker_and_entrypoint_hits.txt",
+    "rollback/r97b_clean_shell_context_preview.before_r220b.html"
+  ],
+  "external_validator": "scripts/validate_1013R_R220B_shell_layer_slot_ownership_binding.py",
+  "boundary": {
+    "readonly_markers_only": true,
+    "new_html_shell": false,
+    "field_rendering": false,
+    "R21_modified": false,
+    "R36_modified": false,
+    "R100_P1_promoted": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "provider_model_call_added": false,
+    "R95_executed": false
+  },
+  "validation": {
+    "validator_status": "PASS",
+    "resolver_js_syntax": "PASS",
+    "zip_sha256_record": "ZIP_SHA256.txt"
+  }
+}
