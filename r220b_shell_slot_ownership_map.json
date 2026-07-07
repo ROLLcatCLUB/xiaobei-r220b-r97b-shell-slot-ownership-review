@@ -1,0 +1,75 @@
+{
+  "stage": "1013R_R220B_R97B_SHELL_LAYER_SLOT_OWNERSHIP_BINDING",
+  "status": "IMPLEMENTED_PENDING_VALIDATION",
+  "target_shell": "R97B working shell",
+  "target_file": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R97B_TEACHER_SHELL_EXPERIENCE_POLISH_AND_STALE_CONTENT_CLEANUP/r97b_clean_shell_context_preview.html",
+  "scope": "readonly shell-layer slot ownership binding before field rendering",
+  "main_code_line": {
+    "modified": true,
+    "file": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R97B_TEACHER_SHELL_EXPERIENCE_POLISH_AND_STALE_CONTENT_CLEANUP/r97b_clean_shell_context_preview.html",
+    "allowed_change": "data markers plus resolver runtime only"
+  },
+  "readonly_contract_lines": [
+    "backend/xiaobei_ai/prep_room_render_shell_registry_1013L_R0.py",
+    "backend/xiaobei_ai/prep_room_main_shell_fetch_adapter_1013L_R5.py",
+    "docs/prep-room-render-surface-map.md",
+    "docs/1013R_R25_four_level_frame_implementation_map.md",
+    "docs/1013R_R30_visible_frame_connector.md",
+    "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013L_M1_canonical_main_shell_milestone/1013L_M1_report.md",
+    "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013L_R36_existing_page_static_patch_consolidation/1013L_R36_report.md",
+    "docs/handoff/1013R_R108_prep_room_import_shell_handoff_20260705.md"
+  ],
+  "shell_layers": {
+    "app-shell": {
+      "owner": "platform shell",
+      "selectors": [".topbar", ".status-strip", "body"],
+      "markers": ["data-shell-layer=\"app-shell\"", "data-render-slot=\"app-topbar\""]
+    },
+    "workspace-shell": {
+      "owner": "prep room workspace shell",
+      "selectors": [".context-bar", ".workspace", ".prep-render-canvas", ".nb-scene", ".nb-binder"],
+      "markers": ["data-shell-layer=\"workspace-shell\"", "data-render-slot=\"workspace-shell\"", "data-render-slot=\"workspace-context-bar\""]
+    },
+    "render-surface": {
+      "owner": "RenderStage / canvas",
+      "selectors": [".prep-render-canvas", "#canvasStage", "#renderLayer", ".nb-doc-body-surface"],
+      "markers": ["data-render-surface=\"prep-room-canvas\"", "data-render-slot=\"render-stage\"", "data-render-slot=\"active-render-layer\""]
+    },
+    "lesson-content-renderer": {
+      "owner": "existing lesson content renderer",
+      "selectors": [".nb-workspace", ".nb-doc-body-surface", "#nb-section-teaching-process", ".nb-readable-process"],
+      "markers": ["data-shell-layer=\"lesson-content-renderer\"", "data-render-slot=\"lesson-body\"", "data-render-slot=\"teaching-process\""]
+    },
+    "right-rail": {
+      "owner": "right assistant / courseware rail",
+      "selectors": [".courseware-rail", ".nb-right-rail", ".nb-drawer"],
+      "markers": ["data-shell-layer=\"right-rail\"", "data-render-slot=\"right-rail\"", "data-r220b-preview-only=\"true\""]
+    },
+    "bottom-xiaojiao": {
+      "owner": "bottom Xiaojiao composer / context",
+      "selectors": [".xiaobei-chat-entry", "[data-r104c-bottom-context]", ".composer", "[data-chat-input]"],
+      "markers": ["data-shell-layer=\"bottom-xiaojiao\"", "data-render-slot=\"bottom-xiaojiao\"", "data-r220b-preview-only=\"true\""]
+    }
+  },
+  "resolver_api": {
+    "global_map": "window.__R220B_SHELL_SLOT_OWNERSHIP_MAP__",
+    "audit_result": "window.__R220B_SHELL_SLOT_OWNERSHIP_AUDIT__",
+    "rebind_function": "window.__R220B_BIND_SHELL_LAYER_MARKERS__",
+    "shell_resolver": "window.resolveShellLayer(layerId)",
+    "slot_resolver": "window.resolveRenderSlot(slotId)"
+  },
+  "boundary": {
+    "field_rendering": false,
+    "new_html_shell": false,
+    "R21_modified": false,
+    "R36_modified": false,
+    "R100_P1_promoted": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "provider_model_call_added": false,
+    "R95_executed": false
+  }
+}
+
