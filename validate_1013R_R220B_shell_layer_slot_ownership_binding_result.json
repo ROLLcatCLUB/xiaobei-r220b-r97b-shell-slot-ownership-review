@@ -1,0 +1,53 @@
+{
+  "stage": "1013R_R220B_R97B_SHELL_LAYER_SLOT_OWNERSHIP_BINDING",
+  "status": "PASS",
+  "target_file": "outputs/PREP_ROOM_RENDER_CANVAS_DEEPEN_V1/1013R_R97B_TEACHER_SHELL_EXPERIENCE_POLISH_AND_STALE_CONTENT_CLEANUP/r97b_clean_shell_context_preview.html",
+  "checks": {
+    "target_exists": true,
+    "required_strings": {
+      "stage_contract": true,
+      "resolver_runtime": true,
+      "current_shell_marker": true,
+      "body_binding_marker": true,
+      "app_shell_marker": true,
+      "workspace_shell_marker": true,
+      "lesson_renderer_marker": true,
+      "bottom_xiaojiao_marker": true,
+      "right_rail_resolver_marker": true,
+      "resolver_shell": true,
+      "resolver_slot": true,
+      "rebind_after_render": true,
+      "ownership_map": true,
+      "route_preserved": true,
+      "apply_backend_payload": true,
+      "template_renderer": true,
+      "unified_process_renderer": true,
+      "right_rail_entrypoint": true,
+      "bottom_xiaojiao_entrypoint": true
+    },
+    "required_outputs": {
+      "r220b_shell_slot_ownership_map.json": true,
+      "r220b_dom_marker_plan.md": true,
+      "r220b_render_slot_resolver_contract.md": true,
+      "r220b_r97b_entrypoint_preservation_report.md": true,
+      "r220b_right_rail_bottom_xiaojiao_slot_report.md": true,
+      "r220b_static_vs_real_shell_no_regression_report.md": true
+    },
+    "no_new_html_shell_outside_rollback": true,
+    "unexpected_html_outputs": []
+  },
+  "boundary": {
+    "R97B_only_main_code_target": true,
+    "new_html_shell_created": false,
+    "field_rendering": false,
+    "R21_modified": false,
+    "R36_modified": false,
+    "R100_P1_promoted": false,
+    "formal_apply": false,
+    "database_written": false,
+    "feishu_written": false,
+    "memory_written": false,
+    "provider_model_call_added": false,
+    "R95_executed": false
+  }
+}
